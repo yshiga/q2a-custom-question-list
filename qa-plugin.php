@@ -18,13 +18,5 @@ if (!defined('QA_VERSION')) { // don't allow this page to be requested directly 
 	exit;
 }
 
-// page
-// qa_register_plugin_module('page', 'qa-test-page.php', 'qa_test_page', 'Test Page');
-// process
-// qa_register_plugin_module('process', 'qa-test-process.php', 'qa_test_process', 'Test Process');
 // layer
 qa_register_plugin_layer('qa-custom-qlist-layer.php', 'Custom Question List Layer');
-// event
-// qa_register_plugin_module('event', 'qa-test-event.php', 'qa_test_event', 'Test Event');
-// override
-// qa_register_plugin_overrides('qa-test-overrides.php');
